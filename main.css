@@ -9,14 +9,12 @@
 body {
     background-color: whitesmoke;
 }
-<<<<<<< HEAD
 
 /*NAVIGATION */
 
 #navLinks {
   display: flex;
   flex-direction: row;
-  justify-content: flex-end;
   justify-content: space-evenly;
   align-items: center;
   background-color: deepskyblue;
@@ -39,5 +37,3 @@ body {
   #navLinks:hover {
     background: #00ace6;
   }
-=======
->>>>>>> 44b2dba5d0fce80c0556c9f88b714067fedc1199
