@@ -37,3 +37,31 @@ body {
   #navLinks:hover {
     background: #00ace6;
   }
+
+  .fullPage {
+      display: flex;
+      min-height: 100vh;
+      flex-direction: column;
+      flex: 1;
+  }
+
+  .page-footer {
+      flex: 1;
+  }
+
+  ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.page-footer {
+    display: block;
+}
+
+.page-footer {
+    background-color: deepskyblue;
+    color: #bbbbbb;
+    line-height: 1.5;
+}
+
+
