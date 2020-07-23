@@ -5,7 +5,35 @@
 
 }
 
-
 body {
     background-color: whitesmoke;
 }
+
+/*NAVIGATION */
+
+#navLinks {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: deepskyblue;
+
+}
+
+#navLinks {
+  display: block;
+  padding: 1em;
+  color: white;
+}
+
+#navLinks {
+    list-style: none;
+    text-transform: uppercase;
+    display: flex;
+  }
+
+  
+  #navLinks:hover {
+    background: #00ace6;
+  }
