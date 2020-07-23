@@ -1,4 +1,5 @@
 * {
+
     padding: 0;
     margin: 0;
     font-family: 'Varela Round', sans-serif;
@@ -8,6 +9,7 @@
 body {
     background-color: whitesmoke;
 }
+<<<<<<< HEAD
 
 /*NAVIGATION */
 
@@ -37,3 +39,5 @@ body {
   #navLinks:hover {
     background: #00ace6;
   }
+=======
+>>>>>>> 44b2dba5d0fce80c0556c9f88b714067fedc1199
