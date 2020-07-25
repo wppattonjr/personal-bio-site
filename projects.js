@@ -51,7 +51,7 @@ const createProjectCards = () => {
     let domString ="";
 
     for (let i=0; i < projects.length; i++) {
-        domString += `<div class="projects">`;
+        domString += `<div class="project">`;
         domString +=    `<div class="project-title">Project Name: ${projects[i].title}</div>`
         domString +=    `<div class="project-screenshot"><img src=${projects[i].screenshot}</div>`
         domString +=    `<div class="project-description">${projects[i].description}</div>`
@@ -63,7 +63,7 @@ const createProjectCards = () => {
 
     }
 
-    printToDom("projects", domString)
+    printToDom("projectsPage", domString)
 }
 
 createProjectCards()
