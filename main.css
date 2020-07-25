@@ -39,7 +39,7 @@ body {
 
 #projectsPage {
   display: flex;
-  flex-flow: row;
+  flex-flow: row wrap;
 }
 
  .projectCards {
@@ -48,6 +48,8 @@ body {
     text-align: center;
     padding: 15px;
     width: 300px;
+    border-radius: 20px;
+  
  }
 
 
