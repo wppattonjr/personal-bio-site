@@ -16,92 +16,37 @@ body {
   flex-direction: row;
   justify-content: space-evenly;
   align-items: center;
-  background-color: #06bc9b;
+  background-color: #f8f8ff;
 
 }
 
 #navLinks {
   display: block;
   padding: 1em;
-  color: #f8f8ff;
+  color: grey;
 }
 
 #navLinks {
     list-style: none;
-    text-transform: uppercase;
     display: flex;
-  }
-
-  
-  #navLinks:hover {
-    background: #2a3b4e;
-  }
-
-#projectsPage {
-  display: flex;
-  flex-flow: row wrap;
 }
 
- .projectCards {
-    border: 2px solid black;
-    background-color: white;
-    text-align: center;
-    padding: 15px;
-    width: 300px;
-    border-radius: 20px;
-  
- }
+#navLinks a:link {
+  color: grey;
+}
 
+#navLinks a:visited {
+  color: #1ba49c;
+}
+
+#navLinks a:hover {
+  color: #1ba49c;
+}
+
+#navLinks a:active {
+  color: #1ba49c;
+  text-decoration: underline;
+}
 
  
  /* FOOTER */
-
-.fullPage {
-  display: flex;
-  min-height: 100vh;
-  flex-direction: column;
-  flex: 1;
-}
-
-.page-footer {
-    flex: 1;
-}
-
-ul {
-  list-style: none;
-  padding-left: 0;
-}
-
-.page-footer {
-  display: block;
-}
-
-.page-footer {
-  background-color: #2a3b4e;
-  color: #bbbbbb;
-  line-height: 1.5;
-}
-
-.fa-linkedin {
-background: #007bb5;
-color: white;
-}
-
-.fa-github {
-background: black;
-color: white; ;
-}
-
-.fa-twitter {
-background: #55ACEE;
-color: white;
-}
-
-.fa {
-padding: 20px;
-font-size: 30px;
-width: 30px;
-text-align: center;
-text-decoration: none;
-border-radius: 50%;
-}
